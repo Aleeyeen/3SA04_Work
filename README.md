@@ -1,24 +1,3 @@
-# React-Native
-## การใช้งาน React-Native 
-- ทำการติดตั้ง ติดตั้ง Chocolatey ในเครื่องแล้ว สามารถติดตั้ง Node.js, Yarn และ Git ได้ผ่าน Chocolatey ผ่าน Command Prompt (ที่รันด้วยสิทธิ์ Administrator)
-
-``` 
->> choco install nodejs
->> choco install yarn
->> choco install git
-
-```
-- ติดตั้ง create-react-app CLI สามารถทำผ่านการใช้คำสั่ง yarn ผ่าน Command Prompt (ที่รันด้วยสิทธิ์ Administrator)
-``` 
->>  expo init wt-app  : (create project wt-app)
->>  cd wt-app 
-
-```
-- รันโปรแกรมด้วยคำสั่ง 
-``` 
->> yarn start
->> expo start 
-```
 
 ## การติดตั้ง Navigation Library 
 - ติดตั้ง Library ผ่าน Command Prompt ด้วยคำสั่ง 
