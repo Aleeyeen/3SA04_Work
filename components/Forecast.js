@@ -22,15 +22,18 @@ const styles = StyleSheet.create({
     center: {
         justifyContent: 'space-around',
         alignItems: 'center',
+        color:'white'
     },
     big: {
         marginTop: 20,
         fontSize: 30,
-        color: 'black',
+        color: 'white',
+        fontSize: 30
+        
     },
     medium: {
         marginTop: 20,
         fontSize: 20,
-        color: 'black',
+        color: 'white',
     },
 })

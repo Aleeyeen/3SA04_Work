@@ -42,6 +42,7 @@
 </NavigationContainer>
 ```
 ## การติดตั้ง react-native-router-flux
+react-native-router-flux เป็น API ที่แตกต่างจาก react-navigation ช่วยให้ผู้ใช้กำหนดเส้นทางทั้งหมดในที่เดียวและนำทางและสื่อสารระหว่างหน้าจอต่างๆได้อย่างง่ายดาย
 - ติดตั้ง Library ผ่าน Command Prompt ด้วยคำสั่ง 
 ``` 
 >> expo install react-native-router-flux

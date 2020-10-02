@@ -10,7 +10,7 @@ export default function Logo() {
     return (        
        <View style = {styles.container}>
            <Image source={require('../animation.gif')}/>
-          
+           <Text style = {styles.Font} >WEATHER</Text>
        </View>
            
     );
@@ -23,5 +23,10 @@ export default function Logo() {
           justifyContent: 'center',
           alignItems: 'center',
       },
+
+    Font: {
+        fontSize: 30,
+        marginTop: -20,
+    },
   })
   
