@@ -27,14 +27,13 @@
 >> yarn add @react-navigation/stack @react-navigation/native
 
 ```
-## ตัวอย่างการใช้งาน Navigation
-- ให้ทำการ import Navigation
-``` 
-import { NavigationContainer } from '@react-navigation/native'; 
-import { createStackNavigator } from '@react-navigation/stack';
-```
+
+## ตัวอย่างการใช้งาน Navigation สามารถทำได้ผ่านการใช้ Navigation Library ซึ่งไลบรารีที่ถือเป็น Official จาก React คือ react-navigation
+
 - ตัวอย่าง code 
 ```
+  import { NavigationContainer } from '@react-navigation/native'; 
+  import { createStackNavigator } from '@react-navigation/stack';
 <NavigationContainer>
     <Stack.Navigator>
     <Stack.Screen name="Home" component={ZipCodeScreen} />
@@ -49,9 +48,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 >> yarn add react-native-router-flux
 ```
 ## ตัวอย่างการใช้งาน react-native-router-flux
-- ให้ทำการ import react native router flux
 - ตัวอย่าง code
 ```
+import {Actions} from 'react-native-router-flux
 <Router>
         <Scene key="root">
           <Scene key="Logo" component={Logo} hideNavBar={true}></Scene>
