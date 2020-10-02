@@ -60,7 +60,7 @@ import { createStackNavigator } from '@react-navigation/stack';
         </Scene>
 </Router>
 ```
-## การทำโหลดเดอร์ สามารถทำได้จาก lottie react native 
+## การติดตั้ง และใช้งาน lottie react native 
 - ทำการติดตั้ง ในส่วนของ lottie 
  ``` 
 >> expo install lottie-react-native
