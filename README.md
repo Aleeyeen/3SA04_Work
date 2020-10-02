@@ -1,11 +1,15 @@
 # React-Native
 ## การใช้งาน React-Native 
-- ก่อนที่จะใช้ React-Native จะต้องมีการติดตั้ง Node.js, Yarn และ Git ไว้ก่อน
-- ต่อมาติดตั้ง create-react-app CLI ผ่าน Command Prompt (ที่รันด้วยสิทธิ์ Administrator) ด้วยคำสั่ง
+- 
+- ทำการติดตั้ง ติดตั้ง Chocolatey ในเครื่องแล้ว สามารถติดตั้ง Node.js, Yarn และ Git ได้ผ่าน Chocolatey ผ่าน Command Prompt (ที่รันด้วยสิทธิ์ Administrator)
+
+``` 
+>> choco install nodejs
+>> choco install yarn
+>> choco install git
+
 ```
->> yarn global add expo-cli 
-```
-- เริ่มสร้าง Project สำหรับการพัฒนา React Native ด้วย expo ด้วยคำสั่ง
+- ติดตั้ง create-react-app CLI สามารถทำผ่านการใช้คำสั่ง yarn ผ่าน Command Prompt (ที่รันด้วยสิทธิ์ Administrator)
 ``` 
 >>  expo init wt-app  : (create project wt-app)
 >>  cd wt-app 
@@ -14,7 +18,9 @@
 - รันโปรแกรมด้วยคำสั่ง 
 ``` 
 >> yarn start
+>> expo start 
 ```
+
 ## การติดตั้ง Navigation Library 
 - ติดตั้ง Library ผ่าน Command Prompt ด้วยคำสั่ง 
 ```
@@ -23,7 +29,7 @@
 
 ```
 ## ตัวอย่างการใช้งาน Navigation
-- ให้ทำการ import
+- ให้ทำการ import Navigation
 ``` 
 import { NavigationContainer } from '@react-navigation/native'; 
 import { createStackNavigator } from '@react-navigation/stack';
@@ -44,7 +50,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 >> yarn add react-native-router-flux
 ```
 ## ตัวอย่างการใช้งาน react-native-router-flux
-- ให้ทำการ ``` import { Router, Scene } from 'react-native-router-flux'; ```
+- ให้ทำการ import react native router flux
 - ตัวอย่าง code
 ```
 <Router>
@@ -54,8 +60,21 @@ import { createStackNavigator } from '@react-navigation/stack';
         </Scene>
 </Router>
 ```
-## ก่อนใช้งาน Project React-Native ที่มาจากการ clone จาก git 
-- ให้ทำการติดตั้ง yarn อีกครั้งใน Project จึงจะสั่ง yarn start ได้
-``` 
->> yarn 
+## การทำโหลดเดอร์ สามารถทำได้จาก lottie react native 
+- ทำการติดตั้ง ในส่วนของ lottie 
+ ``` 
+>> expo install lottie-react-native
+>> yarn add lottie-react-native
+
+```
+- ตัวอย่าง code
+```
+import React from 'react';
+import LottieView from 'lottie-react-native';
+
+export default class BasicExample extends React.Component {
+  render() {
+    return <LottieView source={require('./animation.json')} autoPlay loop />;
+  }
+}
 ```
