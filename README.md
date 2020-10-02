@@ -1,6 +1,5 @@
 # React-Native
 ## การใช้งาน React-Native 
-- 
 - ทำการติดตั้ง ติดตั้ง Chocolatey ในเครื่องแล้ว สามารถติดตั้ง Node.js, Yarn และ Git ได้ผ่าน Chocolatey ผ่าน Command Prompt (ที่รันด้วยสิทธิ์ Administrator)
 
 ``` 
